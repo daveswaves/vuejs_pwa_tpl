@@ -1,6 +1,8 @@
 <!-- App.vue -->
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+// 'vue-router' import not required because Vue 3 automatically registers certain built-in components globally
+// when using Single File Components (SFCs) and <script setup>. This includes RouterLink and RouterView
+// import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
